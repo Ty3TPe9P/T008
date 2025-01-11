@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <title>Menu Configurator</title>
+</head>
+<body app-theme="light">
+  <header id="ff-app-header">
+    <span id="ff-app-name">Menu Configurator Menu</span>
+    <div id="ff-app-header__right-block">
+      <div class="user-info">
+        <img src="./images/pepp" class="user-info__avatar" />
+      </div>
+    </div>
+  </header>
+  <main id="ff-app-base">
+    <ul class="menus-list">
+      <li class="menu">
+        <button id="add-menu-btn">
+          Добавить меню
+        </button>
+        <select name="add-menu-input-day" id="add-menu-input-day">
+          <option value="">Выберите день: </option>
+          <option value="0">Понедельник</option>
+          <option value="1">Вторник</option>
+          <option value="2">Среда</option>
+          <option value="3">Четверг</option>
+          <option value="4">Пятница</option>
+          <option value="5">Суббота</option>
+          <option value="6">Воскресенье</option>
+        </select>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
